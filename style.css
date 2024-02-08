@@ -2,7 +2,12 @@
     margin: 0px;
     padding: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
 }
+
+                             /* NAVIGATION BAR */
+
 nav{
     height: 60px;
     background-color: #121921;
@@ -37,18 +42,17 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: 10px; */
     padding:0px 10px ;
 }
 
 .logo_1{
-    background-image: url("amazon.png");
+    background-image: url("./image/amazon.png");
     background-size: cover;
     height: 50px;
     width: 115px;
 }
 
-  /* Location */
+  /* LOCATION */
 
 .locat{
     width: 110px;
@@ -86,14 +90,13 @@ nav{
     font-weight: 600;
 } 
 
-/* **SEARCH PANEL** */
+/* **SEARCH PANEL ** */
 
 .search{
     width: 70%;
     height: 60px;
     padding: 8px 5px 8px 20px;
     box-sizing: border-box;
-    /* margin: 0px 10px; */
 }
 
 .search_A{
@@ -150,10 +153,7 @@ nav{
     border-radius: 0 5px 5px 0;
     color: #0f1111;
 }
-
-
-  /* Sign In  (BOX4)*/
-
+  /* SIGN IN*/
 .sign_in{
     height: 50px;
     width: 165px;
@@ -181,7 +181,7 @@ nav{
     align-items: end;
 }
 
-/* BOX 5 */
+/* ORDERS*/
 
 .orders{
     height: 50px;
@@ -231,7 +231,7 @@ nav{
     font-weight: 550;
 }
 
-/* 2ND navbar */
+                             /* 2ND NAVBAR */
 .nav2{
     height: 40px;
     width: 100%;
@@ -239,12 +239,9 @@ nav{
     display: flex;
     justify-content:start ;
     align-items: center;
-    /* opacity: 0.8; */
 }
-/* nav2_box1 */
-
+ /* NAV 2_BOX 1 */
 .nav2_box1{
-    /* background-color: #0f1111; */
     height: 40px;
     width: 60px;
     color: white;
@@ -260,6 +257,7 @@ nav{
     font-size: 0.9rem;
     font-weight: 600;
 }
+ /* NAV 2 BOX 2 */
 .nav2_box2{
     box-sizing: border-box;
     height: 40px;
@@ -279,11 +277,11 @@ nav{
 }
     /* MAIN BODY */
 
-     /* TOP BODY */
+                                 /* TOP BODY */
 
 /* Body bg img */
 .top_body{
-    background-image: url("1st img.jpg");
+    background-image: url("./image/1st img.jpg");
     background-size: cover;
     height: 310px;
     display: flex;
@@ -309,8 +307,9 @@ nav{
     text-decoration: underline;
 }
 
-/* MIDDLE BODY  */
+                             /* MIDDLE BODY  */
 
+   /* FOR ALL BOX */
 .middle_body{
     box-sizing: border-box;
     margin: 0px 10px 0px 10px;
@@ -340,10 +339,8 @@ nav{
     font-size: 1.2rem;
     font-weight: bold;
 }
-/* .body_box_1 a{
-    box-sizing: border-box;
-    width: 330;
-} */
+
+
 .body_box_img{
     height: 300px;
     background-size: cover;
@@ -407,10 +404,9 @@ display: flex;
 }
 .body_box_img_topdeal_p1{
     color: #cc0c39;
-    /* background-color: rgb(243, 237, 237); */
 }
 
-/* BOTTOM body */
+                             /* BOTTOM body */
 
 .bottom{
     height:125px;
@@ -428,7 +424,6 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-      /* background-color: #b63333; */
 }
 .bottom_p1{
     height: 20px;
@@ -470,14 +465,14 @@ display: flex;
     color: #d37149;
 }
 
-/* FOOTER */
+                             /* FOOTER */
 
-
+/* Footer 1st element */
 footer{
     height:650px ;
     width: 100%;
 }
-.footer_div1_a{
+.footer_a{
     height: 50px;
     width: 100%;
     box-sizing: border-box;
@@ -490,9 +485,10 @@ footer{
     font-weight: 450;
     text-decoration: none;
 }
-.footer_div1_a:hover{
+.footer_a:hover{
     opacity: 0.9;
 }
+/* Footer 2nd element */
 .footer_div2{
     height: 400px;
     width: 100%;
@@ -540,9 +536,7 @@ footer{
 .footer_div2 h4{
     margin: 30px 0px 10px 0px;
 }
-
-/* DIV 3 */
-
+/* Footer 3rd element */
 .footer_div3{
     background-color: #232f3e;
     height: 100px;
@@ -583,8 +577,7 @@ footer{
 .footer_div3_4{
   width: 135px;
 }
-/* DIV 4 */
-
+/* Footer 4th element */
 .footer_div4{
     height: 100px;
     background-color: #19283a;
